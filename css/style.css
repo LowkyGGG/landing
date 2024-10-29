@@ -1,0 +1,49 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@700');
+@import url('https://fonts.googleapis.com/css2?family=Federo&display=swap');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v6.1.2/css/all.css');
+@import url('/landing/css/components/banner.css');
+@import url('/landing/css/components/buttons.css');
+@import url('/landing/css/components/cards.css');
+@import url('/landing/css/components/footer.css');
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+}
+
+h1{
+  font-family: Federo;
+  text-shadow: 0 0 15px rgba(0,0,0,0.4);
+}
+
+h2{
+  font-family: Federo;
+  color: rgb(13, 13, 13);
+}
+
+h3, h4 {
+  font-family: Poppins;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+
+
+.container{
+  margin: auto;
+  text-align: center;
+  width: 1200px;
+}
+
+.text-center{
+  text-align: center;
+  font-size: 36px;
+  text-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
